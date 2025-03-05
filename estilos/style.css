@@ -4,29 +4,53 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body html{
+    width: 100vw;
 }
 
 header{
-    background-color: red;
+    background-color: #F23545;
+    height: 150px;
+    width: auto;
+
     display: flex;
-align-content: center;
-display: block;
-
-}
-
-header > h1{
-    flex: auto;
-    text-align: center;
+    flex-flow: column nowrap;
+    justify-content: center;
     align-items: center;
 }
 
-header > menu{
-display: block;
-background-color: red;
+header > img{
+    height: 110px;
+    margin-bottom: 2px;
 }
 
-header > menu > a{
-    text-decoration: none;
+header > p{
+    align-self: center;
     color: white;
-    margin: 2px;
+}
+
+menu{
+background-color: #F23545;
+height: 25px;
+}
+
+menu > a{
+    color: white;
+    text-decoration: none;
+padding: 5px;
+padding-bottom: 15px;
+
+}
+
+menu > a:hover{
+    background-color: rgba(255, 255, 255, 0.57);
+    color: #F23545;
+}
+
+main > iframe{
+    width: 97vw;
+    height: 100vh;
 }
