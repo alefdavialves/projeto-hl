@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+    display: flex;
+align-content: center;
+display: block;
+
+}
+
+header > h1{
+    flex: auto;
+    text-align: center;
+    align-items: center;
+}
+
+header > menu{
+display: block;
+background-color: red;
+}
+
+header > menu > a{
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+}
